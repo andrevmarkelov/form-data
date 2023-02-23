@@ -1,0 +1,73 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "0be40dc31fb673f99639c0df54c1152d",
+    "packages": [
+        {
+            "name": "itvisionsy/simple-orm",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/itvisionsy/php-simple-orm.git",
+                "reference": "64eba86d239469c35b3ee38bdd6520f5f1c28278"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/itvisionsy/php-simple-orm/zipball/64eba86d239469c35b3ee38bdd6520f5f1c28278",
+                "reference": "64eba86d239469c35b3ee38bdd6520f5f1c28278",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "require-dev": {
+                "php": ">=5.6",
+                "phpunit/phpunit": "^5.7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ItvisionSy\\SimpleORM\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alex Joyce",
+                    "email": "im@alex-joyce.com"
+                },
+                {
+                    "name": "Muhannad Shelleh",
+                    "email": "muhannad.shelleh@live.com"
+                }
+            ],
+            "description": "A simple PHP class to access your MySQL records.",
+            "keywords": [
+                "database",
+                "mysql",
+                "orm",
+                "pdo",
+                "php"
+            ],
+            "support": {
+                "source": "https://github.com/itvisionsy/php-simple-orm/tree/master"
+            },
+            "time": "2017-03-26T13:46:53+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}
